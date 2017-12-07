@@ -1,6 +1,5 @@
 # Music Blitz
-This repo is for public files related to Music Blitz, an Android application that 
-uses Spotify data to create expressive light shows on Lifx smart bulbs and strips.
+Music Blitz sees what music you play through your Spotify app and generates a light show in response. Rather than relying on noisy microphone input or at-the-moment audio, Music Blitz responds to the whole song and coordinates the light show in advance, giving a higher quality experience.
 
 Music Blitz is availabe [on Google play](https://play.google.com/store/apps/details?id=com.saites.spotlight).
 
