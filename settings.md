@@ -80,7 +80,7 @@ This is the waveform for the light flash. Note that `Party` and `Chill` are igno
  This mode biases the peak light intensity towards the end of the waveform.
 #### Balanced
  This mode places the peak light intensity in the middle of the waveform.
-#### Super Chill 
+#### Direct 
  This mode linearly interpolates directly to the new brightness and color, rather than peaking at any specific point.
 
 ### Blink Length
