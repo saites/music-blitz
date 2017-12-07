@@ -11,7 +11,7 @@ Major Features
  - Flash all lights together, one at a time, or via custom grouping
 
 ![Main Screen](screenshots/mainScreen.png) 
-![Settings](screenshots/settings2.png) 
+![Settings](screenshots/settings.png) 
 ![Discovery](screenshots/discovery.png)
 ![Pitches](screenshots/pitches.png)
 
