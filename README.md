@@ -10,6 +10,9 @@ Major Features
  - Choose colors automatically or manually
  - Flash all lights together, one at a time, or via custom grouping
 
-![Main Screen](screenshots/mainScreen.png) ![Settings](screenshots/settings2.png) ![Discovery](screenshots/discovery.png)
+![Main Screen](screenshots/mainScreen.png) 
+![Settings](screenshots/settings2.png) 
+![Discovery](screenshots/discovery.png)
+![Pitches](screenshots/pitches.png)
 
 For troubleshooting, check out the [FAQ](faq.md). For information on settings, view the [settings documentation](settings.md).
