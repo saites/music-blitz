@@ -46,7 +46,7 @@ In timbre mode, the color color is based on sound variations within the song; if
 #### Pairs
 This mode chooses a color among a list of colors, based on whether the current sound is likely a bar marker (that is, the first beat in a musical bar). 
 
-### Color Pairs
+##### Color Pairs
 This is the list of colors it uses. It rotates through the list over time, based on major variations in the music’s sound.
 
 #### Pitches
@@ -66,7 +66,7 @@ This is the Lifx color temperature, just like what you can set through the Lifx 
 This is the color saturation. When turned all the way up, the color is fully saturation; all the way down, the lights appear white (in which case the color temperature is much more apparent).
 
 ### Timing offset
-This option attempts to align the peak of the bulb’s flash with the predicted peak loudness of the music playing at the time of flashing. Most of the time, it should make the lights feel more in time with the music. When its turned off, the flashes start with the predicted beat impulse, so if the blink length is long, it might appear behind the music by several tens of miliseconds. For `Beats and Bars` and `Frequency` modes, that means the entire wave is shifted to start earlier, so its peak will match the impulse of the music. For `Dyanmic` mode, the wave starts with the beginning of the musical section and its peak is aligned to the loudest part of the section (as a result, `Party` and `Chill` Pulse modes aren't used if this option is on).
+This option attempts to align the peak of the bulb’s flash with the predicted peak loudness of the music playing at the time of flashing. Most of the time, it should make the lights feel more in time with the music. When its turned off, the flashes start with the predicted beat impulse, so if the blink length is long, it might appear behind the music by several tens of milliseconds. For `Beats and Bars` and `Frequency` modes, that means the entire wave is shifted to start earlier, so its peak will match the impulse of the music. For `Dynamic` mode, the wave starts with the beginning of the musical section and its peak is aligned to the loudest part of the section (as a result, `Party` and `Chill` Pulse modes aren't used if this option is on).
 
 ## Intensity
 These options determines what a specific flash looks like, independent of its color.
@@ -84,7 +84,7 @@ This is the waveform for the light flash. Note that `Party` and `Chill` are igno
  This mode linearly interpolates directly to the new brightness and color, rather than peaking at any specific point.
 
 ### Blink Length
- This is how long the flash lasts, but depends on the Beat Detection. In `Beats and Bars` mode, pulses last longer because pulses are farther apart in time, and less likely to interfer with on another. In `Frequency Mode`, there are a lot more "hits", so pulses are automatically shortened, but still based on this value. In `Dynamic Mode`, pulse lengths depend on the length of the musical section.
+ This is how long the flash lasts, but depends on the Beat Detection. In `Beats and Bars` mode, pulses last longer because pulses are farther apart in time, and less likely to interfere with one another. In `Frequency Mode`, there are a lot more "hits", so pulses are automatically shortened, but still based on this value. In `Dynamic Mode`, pulse lengths depend on the length of the musical section.
  
 ### Brightness
 These values are the minimum and maximum brightness levels the lights will take. The minimum brightness is used as a baseline for the 
