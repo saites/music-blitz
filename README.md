@@ -4,7 +4,7 @@ Music Blitz sees what music you play through your Spotify app and generates a li
 Music Blitz is available [on Google play](https://play.google.com/store/apps/details?id=com.saites.spotlight).
 
 Demo Video:
-<iframe width="560" height="420" src="http://www.youtube.com/embed/9gBoBvgVC_M?color=white&theme=dark"></iframe>
+<iframe width="560" height="420" src="https://www.youtube.com/embed/9gBoBvgVC_M?color=white&theme=dark"></iframe>
 
 
 Major Features
