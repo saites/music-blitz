@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+nav div ul {
+  display: table;
+  width: 100%;
+  list-style: none;
+}
+
+nav div ul li {
+  display: table-cell;
+  text-align: center;
+}
+
+nav div ul li a {
+  display: block;
+}
+
+nav div ul li:first-child {
+  text-align: left;
+}
+
+nav div ul li:last-child {
+  text-align: right;
+}
