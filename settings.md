@@ -8,7 +8,9 @@ song, switching to a different song, or restarting the song (all of these will c
 ### Show Notifications
 This option turns on/off drawer notifications that show up when getting music data or running a light show. 
 If a notification is currently displayed, you may have to pause and unpause your music for the notification to go away.
-Error notifications may still be shown.
+Error notifications may still be shown. In Android Oreo and above (>=8.0), services must use a notification to remain active,
+so this option will not affect as many notifications for Oreo users; instead, they must use their phone's settings to fully
+disable notifications.
 
 ## Light Colors 
 These options influence when in the music the light pulses and what color they use.
